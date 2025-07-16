@@ -1,0 +1,167 @@
+{
+  "recommendations": {
+    "content": "MECHANICAL ENGINEERING INTERN\nSummary\nCAD | CAM | Finite Element Analysis | Mechanical Design | Product Design and Development\nSkills\n5 years of experience with CAD packages (SolidWorks, Autodesk Inventor, AutoCAD, CATIA, PTC CREO)\n2.5 years of experience with CAE Softwares (HyperMesh, Abaqus, ANSYS, Optistruct)\n2.5 years of experience with Analysis (Linear & Non-linear Static, Dynamic, GD & T, Tolerance Analysis, Design Optimization)\nExperience with Sheet metal, Design for manufacturing, generating Bill of Materials, DFMEA, Sculpting.\nExperience with advanced material selection for rapid prototyping, advanced manufacturing, welding and 3D printing.\nExperience\n09/2013 to 05/2014\nCompany Name\nFinite Element Analysis of Industrial Robotic Assembly, Illinois Institute of Technology, Chicago Jan - May 2016.\nConceptualized, brainstormed and designed a 6-axis SCARA Robot for pick and place operation in automotive industry.\nPerformed static analysis with stainless steel 304 to evaluate the maximum load an assembly can lift before yielding.\nAlso, analyzed Gripper and joints to eradicate future failures.\nOptimized design using OptiStruct by varying mesh sizes and element order.\nSimulated assembly with dynamic analysis to find distorted elements and to verify optimized structure.\nReliability Engineering Analysis on Automotive Oil Pump, Illinois Institute of Technology, Chicago Sept - Dec 2015.\nUsed industrial reliability specifications to select the power consumption and flow rate at three distinct levels of rpm to study its variability.\nImproved system using Taguchi analysis by optimizing signal to noise ratio.\nConducted Failure Mode Effect Analysis (FMEA) to analyze potential causes of failures to deliver clean oil upon demand Abstracted and\ndesigned Near Dry Machine with two inlet nozzles.\nPerformed fluid analysis and actual results on lathe machine.\nProvided vegetable oil as a coolant with pressurized air on flank face of the tool, which resulted in unburnt and recyclable chips.\nGearbox Design, Narsee Monjee Institute of Management Studies, Mumbai Jan - May 2013.\nDesigned a gear box with different gears such as spur, helical worm by considering seals, lubricating oil and bearings.\nAssigned materials and performed dynamic simulation to define contact surfaces.\n06/2013 to 08/2013\nMechanical Engineering Intern Company Name\nInitiated a project to perform a failure investigation in mufflers due to the low clearance of roads and provided feedback.\nEstablished and coordinated maintenance, GD&T, safety procedures, service schedule and supply of materials in the maintenance shop.\nDeveloped failure reports including feedback based on common failures from the automotive industry.\nSet up and calibrated accelerometers on Hyundai cars to conduct tests to analyze the modes of vibration of vehicle and the steering column.\n05/2012 to 07/2012\nManufacturing Engineering Intern Company Name\nAnalyzed automation, process parameters, different equipment to shape and control the profile of chips and Manufacturing process of Hot\nStrip Coil.\nRe-designed the existing shop floor to improve space utilization, increase material flow, optimize labor and reduce holding costs by 5% and\nimproved space utilization by 20%.\nPerformed statistical analysis on historical data of the operating parameters using SPC and DOE's to identify significant factors contributing\nto process deviation and affecting the cold crushing strength of the pellet.\nGenerated Bill of Materials and calculated overall manufacturing cost.\nEducation and Training\nMay 2017\nMaster's : Mechanical & Aerospace Engineering Illinois Institute of Technology (IIT) \u00ef\u00bc\u200b City , State Mechanical & Aerospace Engineering 3.5/4.0\nAdvanced CAD/CAM, Engineering Analysis, Finite Element Analysis, Advanced Manufacturing\nMay 2014\nBachelor of Technology : Mechanical Engineering Narsee Monjee Institute of Management Studies \u00ef\u00bc\u200b City India Mechanical Engineering 3.19/4.0\nWork History\nCompany Name\nCertifications\nAutodesk Certified Professional in Autodesk Inventor Professional Software. (License # 00313355) *Autodesk Certified Associate in AutoCAD\nSoftware. (License # 00296190)\nPublications\nParekh R., Chaudhary R., Ingle A. (PhD), \"Reliability of Dissimilar Metal Joints using Fusion Welding: A Review\" presented at the International\nConference on Machine learning, Electrical and Mechanical Engineering (ICMLEME'2014), Dubai (UAE)\nSkills\n3D, ANSYS, AutoCAD, automation, Automotive, CAD/CAM, CAD, CATIA, Dec, Engineering Analysis, lathe, Manufacturing process,\nMaterials, material selection, Oil, Optimization, pick, prototyping, Robotic, safety, simulation, SolidWorks, SPC, statistical analysis, welding\n",
+    "name": "MECHANICAL ENGINEERING INTERN",
+    "email": "",
+    "phone": "",
+    "location": "AutoCAD, CA",
+    "skills": [
+      "r",
+      "machine learning"
+    ],
+    "education": [
+      {
+        "degree": "May 2017",
+        "institution": "Master's : Mechanical & Aerospace Engineering Illinois Institute of Technology (IIT) \u00ef\u00bc\u200b City , State Mechanical & Aerospace Engineering 3.5/4.0",
+        "date": "May 2017"
+      }
+    ],
+    "experience": [
+      {
+        "title": "2.5 years of"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Established and coordinated maintenance, GD&T, safety procedures, service schedule and supply of materials in the maintenance shop."
+      }
+    ]
+  },
+  "skill_gap": [
+    {
+      "job": {
+        "Job Id": 2617950000000000.0,
+        "Experience": "0 to 13 Years",
+        "Qualifications": "MBA",
+        "location": "Caracas",
+        "Country": "Venezuela, RB",
+        "Work Type": "Part-Time",
+        "Job Title": "Project Manager",
+        "Category": "IT Project Manager",
+        "Job Description": "IT Project Managers plan, execute, and oversee IT projects. They define project scope, allocate resources, manage budgets, and ensure projects are delivered on time and within scope. They also communicate project status and risks to stakeholders.",
+        "extracted_skills": [],
+        "requirements": [],
+        "responsibilities": [],
+        "benefits": [],
+        "normalized_location": "Caracas",
+        "salary_min": null,
+        "salary_max": null
+      },
+      "score": 0.08116038888692856,
+      "explanation": "This job is a good match for your profile. This job partially matches your profile.",
+      "matching_skills": [],
+      "missing_skills": [],
+      "skill_score": 0.0,
+      "location_score": 0.0,
+      "embedding_score": 0.16232077777385712
+    },
+    {
+      "job": {
+        "Job Id": 2827220000000000.0,
+        "Experience": "1 to 14 Years",
+        "Qualifications": "B.Tech",
+        "location": "Luanda",
+        "Country": "Angola",
+        "Work Type": "Temporary",
+        "Job Title": "Financial Analyst",
+        "Category": "Financial Planner",
+        "Job Description": "Financial Planners help clients achieve their financial goals by providing personalized financial advice and investment strategies. They assess clients financial situations, develop financial plans, and offer recommendations on savings, investments, and retirement planning.",
+        "extracted_skills": [],
+        "requirements": [],
+        "responsibilities": [],
+        "benefits": [],
+        "normalized_location": "Luanda",
+        "salary_min": null,
+        "salary_max": null
+      },
+      "score": 0.08116038888692856,
+      "explanation": "This job is a good match for your profile. This job partially matches your profile.",
+      "matching_skills": [],
+      "missing_skills": [],
+      "skill_score": 0.0,
+      "location_score": 0.0,
+      "embedding_score": 0.16232077777385712
+    },
+    {
+      "job": {
+        "Job Id": 1700330000000000.0,
+        "Experience": "4 to 8 Years",
+        "Qualifications": "BA",
+        "location": "Oranjestad",
+        "Country": "Aruba",
+        "Work Type": "Contract",
+        "Job Title": "Finance Manager",
+        "Category": "Financial Planning Manager",
+        "Job Description": "Financial Planning Managers oversee financial planning services. They lead a team of financial planners, develop financial strategies, and ensure clients financial goals are met.",
+        "extracted_skills": [],
+        "requirements": [],
+        "responsibilities": [],
+        "benefits": [],
+        "normalized_location": "Oranjestad",
+        "salary_min": null,
+        "salary_max": null
+      },
+      "score": 0.08116038888692856,
+      "explanation": "This job is a good match for your profile. This job partially matches your profile.",
+      "matching_skills": [],
+      "missing_skills": [],
+      "skill_score": 0.0,
+      "location_score": 0.0,
+      "embedding_score": 0.16232077777385712
+    },
+    {
+      "job": {
+        "Job Id": 145704000000000.0,
+        "Experience": "0 to 10 Years",
+        "Qualifications": "BBA",
+        "location": "Tirana",
+        "Country": "Albania",
+        "Work Type": "Contract",
+        "Job Title": "Social Worker",
+        "Category": "School Social Worker",
+        "Job Description": "Support students social and emotional well-being in schools, collaborate with educators, and connect families with resources.",
+        "extracted_skills": [],
+        "requirements": [],
+        "responsibilities": [],
+        "benefits": [],
+        "normalized_location": "Tirana",
+        "salary_min": null,
+        "salary_max": null
+      },
+      "score": 0.08116038888692856,
+      "explanation": "This job is a good match for your profile. This job partially matches your profile.",
+      "matching_skills": [],
+      "missing_skills": [],
+      "skill_score": 0.0,
+      "location_score": 0.0,
+      "embedding_score": 0.16232077777385712
+    },
+    {
+      "job": {
+        "Job Id": 2133990000000000.0,
+        "Experience": "1 to 11 Years",
+        "Qualifications": "M.Com",
+        "location": "Sofia",
+        "Country": "Bulgaria",
+        "Work Type": "Temporary",
+        "Job Title": "Psychologist",
+        "Category": "Clinical Psychologist",
+        "Job Description": "Clinical Psychologists diagnose and treat mental health disorders. They conduct therapy sessions, assessments, and research to improve patients well-being.",
+        "extracted_skills": [],
+        "requirements": [],
+        "responsibilities": [],
+        "benefits": [],
+        "normalized_location": "Sofia",
+        "salary_min": null,
+        "salary_max": null
+      },
+      "score": 0.08116038888692856,
+      "explanation": "This job is a good match for your profile. This job partially matches your profile.",
+      "matching_skills": [],
+      "missing_skills": [],
+      "skill_score": 0.0,
+      "location_score": 0.0,
+      "embedding_score": 0.16232077777385712
+    }
+  ]
+}

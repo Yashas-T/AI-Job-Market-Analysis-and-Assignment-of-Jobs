@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+
+{% block title %}Resume-Job Matching System - Home{% endblock %}
+
+{% block content %}
+<div class="row fade-in">
+    <div class="col-md-12 text-center mb-4">
+        <h1 class="display-4">Find Your Perfect Job Match</h1>
+        <p class="lead">Upload your resume and get personalized job recommendations based on your skills and experience.</p>
+    </div>
+</div>
+
+<div class="row justify-content-center fade-in">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0"><i class="fas fa-file-upload me-2"></i>Upload Your Resume</h4>
+            </div>
+            <div class="card-body">
+                <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+                    <div class="upload-area" id="drop-area">
+                        <i class="fas fa-cloud-upload-alt fa-3x mb-3" style="color: #3498db;"></i>
+                        <h5>Drag & Drop your resume or click to browse</h5>
+                        <p class="text-muted">Supported formats: PDF, DOCX, TXT</p>
+                        <input type="file" name="resume" id="file-input" class="d-none" accept=".pdf,.docx,.txt">
+                        <button type="button" class="btn btn-outline-primary mt-2" id="browse-btn">
+                            <i class="fas fa-folder-open me-2"></i>Browse Files
+                        </button>
+                    </div>
+                    <div id="file-info" class="mt-3 d-none">
+                        <div class="alert alert-info">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-file-alt me-3 fa-2x"></i>
+                                <div>
+                                    <h6 class="mb-0" id="file-name">filename.pdf</h6>
+                                    <small id="file-size">Size: 0 KB</small>
+                                </div>
+                                <button type="button" class="btn btn-sm btn-outline-danger ms-auto" id="remove-file">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg" id="upload-btn" disabled>
+                            <i class="fas fa-rocket me-2"></i>Get Job Recommendations
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5 fade-in">
+    <div class="col-md-12 text-center mb-4">
+        <h2>How It Works</h2>
+        <p class="text-muted">Our AI-powered system matches your resume with job opportunities</p>
+    </div>
+</div>
+
+<div class="row fade-in">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="feature-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h4>Upload Resume</h4>
+                <p>Upload your resume in PDF, DOCX, or TXT format. Our system will extract your skills, experience, and qualifications.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="feature-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h4>AI Analysis</h4>
+                <p>Our advanced AI algorithms analyze your resume and match it with job postings based on skills, experience, and other factors.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h4>Get Recommendations</h4>
+                <p>Receive personalized job recommendations, skill gap analysis, and visualizations to help you find your perfect job match.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5 fade-in">
+    <div class="col-md-12 text-center mb-4">
+        <h2>Key Features</h2>
+        <p class="text-muted">What makes our system stand out</p>
+    </div>
+</div>
+
+<div class="row fade-in">
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="fas fa-brain text-primary me-2"></i>AI-Powered Matching</h5>
+                <p>Our system uses advanced natural language processing and machine learning algorithms to understand your resume and match it with suitable job opportunities.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="fas fa-puzzle-piece text-primary me-2"></i>Skill Gap Analysis</h5>
+                <p>Identify skills you're missing for your dream job and get recommendations on what to learn to improve your chances.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="fas fa-chart-line text-primary me-2"></i>Visual Reports</h5>
+                <p>Get visual representations of your job matches, skill comparisons, and recommendations through interactive charts and graphs.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="fas fa-shield-alt text-primary me-2"></i>Privacy Focused</h5>
+                <p>Your resume data is processed securely and not shared with third parties. We prioritize your privacy and data security.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dropArea = document.getElementById('drop-area');
+        const fileInput = document.getElementById('file-input');
+        const browseBtn = document.getElementById('browse-btn');
+        const uploadBtn = document.getElementById('upload-btn');
+        const fileInfo = document.getElementById('file-info');
+        const fileName = document.getElementById('file-name');
+        const fileSize = document.getElementById('file-size');
+        const removeFile = document.getElementById('remove-file');
+
+        // Open file browser when clicking the browse button or drop area
+        browseBtn.addEventListener('click', () => fileInput.click());
+        dropArea.addEventListener('click', () => fileInput.click());
+
+        // Handle drag and drop events
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        function highlight() {
+            dropArea.style.borderColor = '#3498db';
+            dropArea.style.backgroundColor = '#f0f8ff';
+        }
+
+        function unhighlight() {
+            dropArea.style.borderColor = '#ccc';
+            dropArea.style.backgroundColor = '';
+        }
+
+        // Handle dropped files
+        dropArea.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            if (files.length) {
+                fileInput.files = files;
+                updateFileInfo();
+            }
+        }
+
+        // Handle file selection
+        fileInput.addEventListener('change', updateFileInfo);
+
+        function updateFileInfo() {
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                const fileExtension = file.name.split('.').pop().toLowerCase();
+                const allowedExtensions = ['pdf', 'docx', 'txt'];
+                
+                if (allowedExtensions.includes(fileExtension)) {
+                    fileName.textContent = file.name;
+                    fileSize.textContent = `Size: ${formatFileSize(file.size)}`;
+                    fileInfo.classList.remove('d-none');
+                    uploadBtn.disabled = false;
+                } else {
+                    alert('Please select a PDF, DOCX, or TXT file.');
+                    resetFileInput();
+                }
+            } else {
+                resetFileInput();
+            }
+        }
+
+        // Remove selected file
+        removeFile.addEventListener('click', resetFileInput);
+
+        function resetFileInput() {
+            fileInput.value = '';
+            fileInfo.classList.add('d-none');
+            uploadBtn.disabled = true;
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes < 1024) return bytes + ' bytes';
+            else if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+            else return (bytes / 1048576).toFixed(1) + ' MB';
+        }
+    });
+</script>
+{% endblock %}
